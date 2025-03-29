@@ -1,4 +1,4 @@
-import pg from "pg";
+import pg from 'pg';
 import dotenv from "dotenv"
 
 
@@ -19,4 +19,4 @@ pool.connect()
 .then(()=> console.log("Connexion réussie à PostgreSQL"))
 .catch(err => console.error("Erreur lors de la connexion à PostgreSQL", err));
 
-export default db;
+export default pool;
