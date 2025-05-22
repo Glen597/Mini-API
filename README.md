@@ -52,5 +52,48 @@ CREATE TABLE users (
     email VARCHAR(100) UNIQUE NOT NULL
 );
 ´´´
+#### 📡 API Endpoints
+
+| Method 	| Endpoint   	| Description         	|
+|--------	|------------	|---------------------	|
+| GET    	| /users     	| Get all users       	|
+| GET    	| /users/:id 	| Get a specific user 	|
+| POST   	| /users     	| Create a new user   	|
+| PUT    	| /users/:id 	| Update user by ID   	|
+| DELETE 	| /users/:id 	| Delete user by ID   	|
+
+## Example Request
+#POST /users
+´´´ json
+{
+  "name": "Alice",
+  "email": "alice@example.com"
+}
+´´´
+#Response
+´´´ json
+{
+  "id": 1,
+  "name": "Alice",
+  "email": "alice@example.com"
+}
+´´´
+####🔒 Future Enhancements
+
+* User authentication (JWT or OAuth)
+
+* Input validation (e.g., with express-validator or Joi)
+
+* Role-based access (admin/user)
+
+* Docker integration for easier deployment
+
+* Unit and integration tests
+
+### 👤 Author
+Developed by Benoit Mbole
 
 
+---
+
+If you want, I can generate a boilerplate structure (files and code) matching this README. Would you like that?
