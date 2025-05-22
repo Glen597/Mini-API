@@ -77,8 +77,8 @@ CREATE TABLE users (
   "name": "Alice",
   "email": "alice@example.com"
 }
-´´´
-####🔒 Future Enhancements
+´´´  
+#### 🔒 Future Enhancements
 
 * User authentication (JWT or OAuth)
 
