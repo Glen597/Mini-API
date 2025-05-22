@@ -62,15 +62,15 @@ CREATE TABLE users (
 | PUT    	| /users/:id 	| Update user by ID   	|
 | DELETE 	| /users/:id 	| Delete user by ID   	|
 
-## Example Request
-#POST /users
+## Example Request  
+# POST /users
 ´´´ json
 {
   "name": "Alice",
   "email": "alice@example.com"
 }
-´´´
-#Response
+´´´  
+# Response
 ´´´ json
 {
   "id": 1,
@@ -94,6 +94,6 @@ CREATE TABLE users (
 Developed by Benoit Mbole
 
 
----
+---  
 
 If you want, I can generate a boilerplate structure (files and code) matching this README. Would you like that?
